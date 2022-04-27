@@ -1,0 +1,129 @@
+.Contained{
+ 
+    width:720px ;
+    border-radius: 10px;
+    padding-left: 10px;
+    height: 310px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    flex-wrap: wrap;
+
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2); 
+    transition: 0.3s ease;
+
+}
+
+.Contained:hover{
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.4);
+}
+
+.ImgDiv{
+    flex: 1;
+    height: auto;
+ 
+    width: 100%;
+    
+}
+.imgDiv-main{
+width: 100%;
+height: auto;
+overflow: hidden;
+border-radius: 10px;
+
+}
+
+.imgDiv-main img{
+    object-fit: cover;
+    width: 100%;
+    border-radius: 10px;
+    height: 100%;
+    
+    transform: scale(1.0) ;
+    transition: 0.3s ease;
+}
+
+.imgDiv-main img:hover{
+    transform: scale(1.2);
+    border-radius: 10px;
+}
+
+ .titles{
+    flex: 1;
+    height: auto;
+    width: 100%;
+   display: flex;
+   flex-direction: column;
+   text-align: left;
+   padding-left: 10px;
+}
+
+
+.title-main{
+    height: auto;
+    width: auto;
+    margin: 0;
+    font-family: var(--font-sora);
+}
+.title-main a{
+    text-decoration: none;
+    color: #0d0d0d;
+}
+.title-main a:hover{
+    text-decoration: underline;
+}
+.title-main h2{
+    font-size: 18px;
+    margin: 0;
+}
+
+.sub-title{
+text-overflow: ellipsis;
+margin: 0;
+height: auto;
+padding: 5px;
+} 
+.sub-title p {
+    font-size: 15px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-family: var(--font-sora);
+    margin: 0;
+    color: rgb(64, 64, 64);
+} 
+
+.title-author{
+    
+    font-family: var(--font-sora);
+    margin: 0;
+}
+
+.title-author p{
+    margin: 0;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-family: var(--font-sora);
+    font-weight: bold;
+    color: brown;
+}
+
+
+@media not screen and (min-width: 1024px) {
+    .Contained{
+        
+       margin: 0 auto;
+    }
+}
+
+@media not screen and (min-width: 360px) and (min-width: 678px){
+    .Contained{
+        display: flex;
+        flex-direction: column;
+       margin: 0 auto;
+       height: auto;
+       width: auto;
+       margin-bottom: 15px;
+       padding: 10px;
+    }
+}

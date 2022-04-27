@@ -1,0 +1,20 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+
+:root{
+--font-beau: 'Beau Rivage', cursive;
+--font-bebas: 'Bebas Neue', cursive;
+--font-fira: 'Fira Sans', sans-serif;
+--font-great: 'Great Vibes', cursive;
+--font-noto: 'Noto Sans', sans-serif;
+--font-popis: 'Poppins', sans-serif;
+--font-roboto: 'Roboto', sans-serif;
+--font-saira: 'Saira', sans-serif;
+--font-sora: 'Sora', sans-serif;
+}
+
